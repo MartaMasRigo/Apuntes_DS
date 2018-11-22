@@ -1,1 +1,3 @@
-# Apuntes_DS
+Apuntes del Máster Data Science 2018
+
+Kschool
