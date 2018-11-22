@@ -13,7 +13,8 @@ PULL REQUEST:
    git branch mipullrequest
    git stash pop
    git commit -m "Mi primer pull request"
-   git push -u origin mipullrequest
+   git checkout mypullrequest
+   git push origin mipullrequest
 
 
 
