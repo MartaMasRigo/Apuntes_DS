@@ -1,0 +1,5 @@
+Configurar / acceder a tu Git desde la Terminal:  git config --global user.name "Marta Mas"
+                                                  git config --global user.email "martamasrigo@gmail.com"
+
+
+git clone " "
