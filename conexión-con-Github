@@ -1,3 +1,5 @@
+* Los nombres de los archivos deben ir sin espacios, osino la terminal no ha podido encontrarlos.
+
 Configurar / acceder a tu Git desde la Terminal:  git config --global user.name "Marta Mas"
                                                   git config --global user.email "martamasrigo@gmail.com"
 
@@ -29,6 +31,8 @@ git add README.md
 git status
 git commit -m "No me doy cuenta"
         ????
+
+
         
         
 
