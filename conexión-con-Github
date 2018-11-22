@@ -30,7 +30,23 @@ gedit README.md
 git add README.md
 git status
 git commit -m "No me doy cuenta"
-        ????
+
+1 Opción (más drástica, se borran las modificaciones):
+git reset --hard <<aquí va la referencia donde quieres volver a poner el HEAD>>  // 
+2 Opción (Se borra el commit pero no las modificaciones):
+git reset HEAD~1
+gedit README.md
+git add README.md
+git commit -m "ahora sí que lo quiero subir"
+git push
+
+PARA BORRAR UN ARCHIVO DE DENTRO DEL DIRECTORIO:
+
+rm Prueba
+git add Prueba
+git commit -m "Borrar el archivo Prueba"
+git push
+
 
 
         
