@@ -2,7 +2,17 @@ FORK:
 
 1) Vas a la página de GitHub de la persona a la que quieres hacerle el Fork
 2) Arriba de su página a la derecha haces click encima de Fork y automáticamente se me descargará una copia de su repertorio en mi repertorio de GitHub.
-3) En el terminal pongo: git clone https://github.com/iht/master-data-science-1.git
-4)
+
+PULL REQUEST:
+
+   git clone https://github.com/iht/master-data-science-1.git
+   cd master-data-science-1
+   gedit fichero_nuevo.md
+   git add fichero_nuevo.md
+   git clean -fd
+   git branch mipullrequest
+   git stash pop
+   git commit -m "Mi primer pull request"
+   git push -u origin mipullrequest
 
 
