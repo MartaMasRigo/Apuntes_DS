@@ -1,5 +1,38 @@
 Configurar / acceder a tu Git desde la Terminal:  git config --global user.name "Marta Mas"
                                                   git config --global user.email "martamasrigo@gmail.com"
 
+git clone "https://github.com/MartaMasRigo/master-data-science.git"
+cd master-data-science
+gedit README.md            --> Para editar el archivo README.md  / Después hay que Save y cerrar el editor de texto
+git add README.md
+git status                    --> Para saber dónde estoy y qué cambios he hecho
+git commit -m "Mi primer commit"          --> commit sirve para guardar cambios en el repertorio. -m sirve para añadir un mensaje en el commit.
+git push 
 
-git clone " "
+
+UNA VEZ CLONADO EL REPERTORIO, SI QUEREMOS MODIFICARLO (no hace falta volverlo a clonar, se puede hacer un PULL:
+
+cd master-data-science
+git pull
+gedit README.md
+git add README.md
+git status
+git commit -m "Mi segundo commit"
+git push
+
+¿CÓMO PUEDO RETROCEDER SI HE HECHO UN COMMIT -M SIN QUERER HACERLO?
+
+cd master-data-science
+git pull
+gedit README.md
+git add README.md
+git status
+git commit -m "No me doy cuenta"
+        ????
+        
+        
+
+
+
+
+
