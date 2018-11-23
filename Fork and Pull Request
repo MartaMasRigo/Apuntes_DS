@@ -7,14 +7,15 @@ PULL REQUEST:
 
    git clone https://github.com/iht/master-data-science-1.git
    cd master-data-science-1
+   git branch new_branch
+   git checkout new_branch
    gedit fichero_nuevo.md
    git add fichero_nuevo.md
-   git clean -fd
-   git branch mipullrequest
-   git stash pop
-   git commit -m "Mi primer pull request"
-   git checkout mypullrequest
-   git push origin mipullrequest
+   git commit -m "Nuevo Pull Repquest"
+   git push -u origin new_branch
+    ????????????????????????????????????? Ni IDEA!
+    
+    
 
 
 
