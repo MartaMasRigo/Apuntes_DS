@@ -1,0 +1,19 @@
+PARA EMPEZAR:
+mysql -u root -p
+show databases;
+use university;
+show tables;
+
+PARA DESCRIBIR UNA TABLA / VER CONTENIDO:
+desc People;
+SELECT * FROM People;
+
+MODIFICAR LA DESCRIPCIÓN DE UNA TABLA:
+ALTER TABLE Studies MODIFY students_id INT(20);
+
+DESCARGAR UN ARCHIVO:
+LOAD DATA LOCAL INFILE 'home/dsc/Downloads/db/People.csv' INTO TABLE People COLUMNS TERMINATED BY "," IGNORE 1 LINES;
+
+
+
+
