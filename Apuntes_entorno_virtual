@@ -1,8 +1,0 @@
-ACCEDER AL ENTORNO VIRTUAL:
-conda env list
-conda create -n kschool python=3 numpy pandas matplotlib ypython jupyter
-source activate kschool
-conda list
-which python
-conda install scikit-learn
-jupyter notebook
